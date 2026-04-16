@@ -19,7 +19,7 @@ def your_calculator():
             elif op== '*': 
                print (f"Result:{n1*n2}")
             elif op== '/': 
-               print (f"Result:{n1*n2}" if n2!=0 else"Errror:  Div by 0")
+               print (f"Result:{n1/n2}" if n2!=0 else"Errror:  Div by 0")
             else: print("Invalid Operator")
          except ValueError :
                print("Error: please enter numbers only")
